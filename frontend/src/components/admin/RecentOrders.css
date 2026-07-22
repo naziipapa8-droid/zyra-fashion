@@ -1,0 +1,67 @@
+.recentCard{
+
+background:#181818;
+
+padding:25px;
+
+border-radius:20px;
+
+}
+
+.recentCard h2{
+
+color:white;
+
+margin-bottom:20px;
+
+}
+
+.recentItem{
+
+display:flex;
+
+justify-content:space-between;
+
+padding:16px 0;
+
+border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.recentItem:last-child{
+
+border:none;
+
+}
+
+.recentItem h4{
+
+color:white;
+
+margin:0;
+
+}
+
+.recentItem p{
+
+color:#888;
+
+margin-top:5px;
+
+}
+
+.recentItem span{
+
+background:#D4AF37;
+
+padding:5px 10px;
+
+border-radius:20px;
+
+color:black;
+
+font-size:12px;
+
+font-weight:bold;
+
+}

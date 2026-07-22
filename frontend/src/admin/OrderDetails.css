@@ -1,0 +1,115 @@
+.orderDetails{
+
+padding:35px;
+
+color:white;
+
+}
+
+.detailGrid{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:25px;
+
+margin:30px 0;
+
+}
+
+.card,
+.productsCard,
+.summaryCard,
+.statusCard{
+
+background:#151515;
+
+padding:25px;
+
+border-radius:16px;
+
+margin-bottom:25px;
+
+}
+
+.card h2,
+.productsCard h2,
+.summaryCard h2,
+.statusCard h2{
+
+color:#d4af37;
+
+margin-bottom:20px;
+
+}
+
+.productRow{
+
+display:flex;
+
+gap:20px;
+
+align-items:center;
+
+padding:18px 0;
+
+border-bottom:1px solid #2d2d2d;
+
+}
+
+.productRow img{
+
+width:90px;
+
+height:110px;
+
+object-fit:cover;
+
+border-radius:10px;
+
+}
+
+.statusCard select{
+
+width:100%;
+
+padding:14px;
+
+background:#222;
+
+color:white;
+
+border:1px solid #333;
+
+border-radius:10px;
+
+margin:20px 0;
+
+}
+
+.statusCard button{
+
+padding:15px 30px;
+
+background:#d4af37;
+
+border:none;
+
+border-radius:10px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.statusCard button:hover{
+
+transform:translateY(-2px);
+
+box-shadow:0 10px 25px rgba(212,175,55,.35);
+
+}

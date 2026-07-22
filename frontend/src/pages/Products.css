@@ -1,0 +1,347 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#050505;
+color:#fff;
+font-family:'Poppins',sans-serif;
+}
+
+/* ================= PRODUCTS PAGE ================= */
+
+.products{
+
+min-height:100vh;
+
+background:
+linear-gradient(rgba(5,5,5,.90),rgba(5,5,5,.95)),
+url("https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=2000&q=80")
+center/cover fixed;
+
+padding-bottom:100px;
+
+}
+
+/* ================= HERO ================= */
+
+.hero{
+    text-align:center;
+    padding:20px 8% 70px;
+}
+
+.hero p{
+
+color:#d4af37;
+
+letter-spacing:5px;
+
+font-weight:600;
+
+text-transform:uppercase;
+
+margin-bottom:15px;
+
+}
+
+.hero h1{
+
+font-size:70px;
+
+font-family:'Playfair Display',serif;
+
+font-weight:700;
+
+margin-bottom:20px;
+
+line-height:1.1;
+
+}
+
+.hero span{
+
+color:#bdbdbd;
+
+font-size:18px;
+
+}
+
+/* ================= SEARCH ================= */
+
+.filterBar{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+gap:20px;
+
+padding:0 8% 50px;
+
+flex-wrap:wrap;
+
+}
+
+.filterBar input{
+
+flex:1;
+
+min-width:300px;
+
+padding:18px 25px;
+
+background:rgba(255,255,255,.05);
+
+backdrop-filter:blur(12px);
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:50px;
+
+color:white;
+
+font-size:16px;
+
+outline:none;
+
+transition:.35s;
+
+}
+
+.filterBar input:focus{
+
+border-color:#d4af37;
+
+box-shadow:0 0 18px rgba(212,175,55,.35);
+
+}
+
+.filterBar select{
+
+padding:18px 24px;
+
+background:rgba(255,255,255,.05);
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:50px;
+
+color:white;
+
+font-size:15px;
+
+cursor:pointer;
+
+transition:.35s;
+
+}
+
+.filterBar select:hover{
+
+border-color:#d4af37;
+
+}
+
+/* ================= CATEGORY BUTTONS ================= */
+
+.tabs{
+
+display:flex;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+gap:16px;
+
+padding:10px 8% 55px;
+
+}
+
+.tabs button{
+
+padding:14px 28px;
+
+border:none;
+
+border-radius:40px;
+
+background:#161616;
+
+color:#ddd;
+
+font-size:15px;
+
+cursor:pointer;
+
+transition:.35s;
+
+font-weight:500;
+
+}
+
+.tabs button:hover{
+
+background:#d4af37;
+
+color:#000;
+
+transform:translateY(-3px);
+
+}
+
+.tabs .active{
+
+background:#d4af37;
+
+color:#000;
+
+font-weight:700;
+
+box-shadow:0 10px 25px rgba(212,175,55,.35);
+
+}
+
+/* ================= TOP INFO ================= */
+
+.topInfo{
+
+padding:0 8% 35px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+flex-wrap:wrap;
+
+}
+
+.topInfo h2{
+
+font-size:34px;
+
+font-family:'Playfair Display',serif;
+
+color:#d4af37;
+
+}
+
+/* ================= PRODUCT GRID ================= */
+
+.grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:35px;
+
+padding:0 8%;
+
+}
+
+/* ================= SCROLLBAR ================= */
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#d4af37;
+
+border-radius:20px;
+
+}
+
+::-webkit-scrollbar-track{
+
+background:#111;
+
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:992px){
+
+.hero h1{
+
+font-size:58px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.products{
+
+padding-bottom:70px;
+
+}
+
+.hero{
+
+padding:80px 30px 50px;
+
+}
+
+.hero h1{
+
+font-size:42px;
+
+}
+
+.hero span{
+
+font-size:16px;
+
+}
+
+.filterBar{
+
+padding:0 30px 40px;
+
+}
+
+.filterBar input{
+
+min-width:100%;
+
+}
+
+.filterBar select{
+
+width:100%;
+
+}
+
+.tabs{
+
+padding:0 30px 40px;
+
+}
+
+.topInfo{
+
+padding:0 30px 30px;
+
+}
+
+.grid{
+
+padding:0 30px;
+
+grid-template-columns:1fr;
+
+}
+
+}

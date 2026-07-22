@@ -1,0 +1,91 @@
+.editProduct{
+
+padding:35px;
+
+color:white;
+
+}
+
+.editProduct h1{
+
+margin-bottom:30px;
+
+font-size:34px;
+
+}
+
+.editProduct form{
+
+max-width:700px;
+
+display:flex;
+
+flex-direction:column;
+
+gap:18px;
+
+}
+
+.editProduct input,
+.editProduct textarea,
+.editProduct select{
+
+padding:16px;
+
+background:#171717;
+
+border:1px solid #333;
+
+border-radius:12px;
+
+color:white;
+
+font-size:15px;
+
+outline:none;
+
+}
+
+.editProduct textarea{
+
+resize:none;
+
+}
+
+.editProduct input:focus,
+.editProduct textarea:focus,
+.editProduct select:focus{
+
+border-color:#d4af37;
+
+}
+
+.editProduct button{
+
+background:#d4af37;
+
+color:black;
+
+border:none;
+
+padding:16px;
+
+font-size:17px;
+
+font-weight:bold;
+
+border-radius:12px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.editProduct button:hover{
+
+transform:translateY(-3px);
+
+box-shadow:0 15px 30px rgba(212,175,55,.35);
+
+}

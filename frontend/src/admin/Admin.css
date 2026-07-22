@@ -1,0 +1,20 @@
+.adminLayout{
+
+display:flex;
+background:#0a0a0a;
+min-height:100vh;
+
+}
+
+.adminMain{
+
+margin-left:250px;
+width:calc(100% - 250px);
+
+}
+
+.adminContent{
+
+padding:35px;
+
+}

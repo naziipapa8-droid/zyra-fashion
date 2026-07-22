@@ -1,0 +1,53 @@
+.ordersPage{
+
+min-height:100vh;
+
+padding:140px 8%;
+
+background:#080808;
+
+color:white;
+
+}
+
+.ordersPage h1{
+
+font-size:55px;
+
+font-family:'Playfair Display',serif;
+
+margin-bottom:10px;
+
+color:#d4af37;
+
+}
+
+.ordersPage p{
+
+color:#aaa;
+
+margin-bottom:50px;
+
+}
+
+.ordersGrid{
+
+display:flex;
+
+flex-direction:column;
+
+gap:35px;
+
+}
+
+.emptyOrders{
+
+padding:120px;
+
+text-align:center;
+
+background:#111;
+
+border-radius:20px;
+
+}

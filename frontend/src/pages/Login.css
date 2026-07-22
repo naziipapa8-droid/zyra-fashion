@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.loginPage{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:120px 20px;
+
+    background:
+    linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.75)),
+    url("https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1800&q=80");
+
+    background-size:cover;
+    background-position:center;
+
+}
+
+.loginBox{
+
+    width:430px;
+
+    background:rgba(15,15,15,.72);
+
+    backdrop-filter:blur(20px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:24px;
+
+    padding:45px;
+
+    box-shadow:0 30px 60px rgba(0,0,0,.45);
+
+}
+
+.loginBox h1{
+
+    font-size:42px;
+
+    color:white;
+
+    margin-bottom:10px;
+
+    font-family:'Playfair Display',serif;
+
+}
+
+.loginBox p{
+
+    color:#bdbdbd;
+
+    margin-bottom:35px;
+
+    line-height:1.6;
+
+}
+
+.loginBox input{
+
+    width:100%;
+
+    margin-bottom:18px;
+
+    padding:17px 18px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:14px;
+
+    background:#1b1b1b;
+
+    color:white;
+
+    font-size:15px;
+
+    transition:.35s;
+
+}
+
+.loginBox input:focus{
+
+    border:1px solid #d4af37;
+
+    box-shadow:0 0 15px rgba(212,175,55,.2);
+
+}
+
+.loginBox button{
+
+    width:100%;
+
+    padding:17px;
+
+    margin-top:10px;
+
+    border:none;
+
+    border-radius:14px;
+
+    background:#d4af37;
+
+    color:black;
+
+    font-size:16px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+}
+
+.loginBox button:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 15px 35px rgba(212,175,55,.35);
+
+}
+
+.loginBox span{
+
+    display:block;
+
+    text-align:center;
+
+    margin-top:25px;
+
+    color:#bdbdbd;
+
+}
+
+.loginBox a{
+
+    color:#d4af37;
+
+    text-decoration:none;
+
+    margin-left:8px;
+
+    font-weight:700;
+
+}
+
+.loginBox a:hover{
+
+    text-decoration:underline;
+
+}
+
+@media(max-width:600px){
+
+.loginBox{
+
+    width:100%;
+
+    padding:35px 25px;
+
+}
+
+.loginBox h1{
+
+    font-size:34px;
+
+}
+
+}

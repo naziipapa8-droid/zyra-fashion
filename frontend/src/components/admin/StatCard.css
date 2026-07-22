@@ -1,0 +1,39 @@
+.statCard{
+
+background:#181818;
+border-radius:18px;
+padding:25px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 15px 40px rgba(0,0,0,.3);
+
+}
+
+.statCard p{
+
+color:#999;
+margin-bottom:8px;
+
+}
+
+.statCard h2{
+
+font-size:32px;
+margin:0;
+color:white;
+
+}
+
+.statIcon{
+
+width:70px;
+height:70px;
+border-radius:18px;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:30px;
+color:white;
+
+}
